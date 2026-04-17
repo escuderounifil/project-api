@@ -4,7 +4,9 @@ const app = express();
 const livrosRoutes = require('./routes/livrosRoutes');
 const errorHandler = require('./middlewares/errorHandler');
 const authRoutes = require('./routes/authRoutes');
+const autoresRoutes = require('./routes/autoresRoutes');
 
+app.use('/api/autores', autoresRoutes);
 
 
 app.use(express.json());
