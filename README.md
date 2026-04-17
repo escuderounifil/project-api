@@ -1,20 +1,20 @@
-# 📚 API de Livros
+#  API de Livros
 
 API RESTful completa para gerenciamento de livros, desenvolvida com Node.js, Express e SQLite. O projeto implementa boas práticas de arquitetura, autenticação via JWT, filtros avançados e testes automatizados.
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
-* ✅ CRUD completo de livros
-* ✅ Banco de dados SQLite
-* ✅ Relacionamento entre tabelas (livros ↔ autores)
-* ✅ Filtros por gênero e autor
-* ✅ Paginação e ordenação
-* ✅ Validação de dados
-* ✅ Autenticação com JWT
-* ✅ Tratamento global de erros
-* ✅ Testes automatizados com Jest
+*  CRUD completo de livros
+*  Banco de dados SQLite
+*  Relacionamento entre tabelas (livros ↔ autores)
+*  Filtros por gênero e autor
+*  Paginação e ordenação
+*  Validação de dados
+*  Autenticação com JWT
+*  Tratamento global de erros
+*  Testes automatizados com Jest
 
 ---
 
@@ -63,7 +63,7 @@ npm start
 Servidor rodando em:
 
 ```
-http://localhost:3000
+https://project-api-c2pu.onrender.com
 ```
 
 ---
