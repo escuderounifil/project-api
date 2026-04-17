@@ -8,7 +8,7 @@ module.exports = (req, res, next) => {
     }
 
     try {
-        jwt.verify(token, "segredo");
+        jwt.verify(token, process.env.JWT_SECRET);
         next();
     } catch {
         res.status(401).json({ erro: "Token inválido" });
