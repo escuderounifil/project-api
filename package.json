@@ -16,6 +16,9 @@
     "start": "node src/app.js",
     "test": "jest"
   },
+  "engines": {
+  "node": "18.x"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
