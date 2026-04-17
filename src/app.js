@@ -3,10 +3,15 @@ const app = express();
 
 const livrosRoutes = require('./routes/livrosRoutes');
 const errorHandler = require('./middlewares/errorHandler');
+const authRoutes = require('./routes/authRoutes');
+
+
 
 app.use(express.json());
 
 app.use('/api/livros', livrosRoutes);
+
+app.use(authRoutes);
 
 app.use(errorHandler);
 
